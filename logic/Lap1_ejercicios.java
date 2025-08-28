@@ -10,13 +10,13 @@ public class Lap1_ejercicios {
 
         do {
             System.out.println("--- MENÚ DE EJERCICIOS ---");
-            System.out.println("1. A - Cuadrado con asteriscos");
-            System.out.println("2. B - Triangulo invertido");
-            System.out.println("3. C - Triangulo invertido alineado a la derecha");
-            System.out.println("4. D - Ponga 10 números y ordenar ascendentemente");
-            System.out.println("5. E - Generar 100 números y ordenar descendentemente");
-            System.out.println("6. F - Mostrar tablero con fichas 'N' y 'R'");
-            System.out.println("0. Salir");
+            System.out.println("1 A - Cuadrado con asteriscos");
+            System.out.println("2 B - Triangulo invertido");
+            System.out.println("3 C - Triangulo invertido alineado a la derecha");
+            System.out.println("4 D - Ponga 10 números y ordenar ascendentemente");
+            System.out.println("5 E - Generar 100 números y ordenar descendentemente");
+            System.out.println("6 F - Mostrar tablero con fichas 'N' y 'R'");
+            System.out.println("0 Salir");
             System.out.print("Seleccione una opción: ");
             opcion = scanner.nextInt();
 
@@ -43,7 +43,7 @@ public class Lap1_ejercicios {
                     System.out.println("Saliendo del programa...");
                     break;
                 default:
-                    System.out.println("Opción inválida. Intente de nuevo.");
+                    System.out.println("Opción inválida Intente de nuevo.");
             }
 
         } while (opcion != 0);
